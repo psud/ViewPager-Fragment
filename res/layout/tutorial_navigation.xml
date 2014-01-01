@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/background">
+    
+    <TextView
+        android:id="@+id/tutNavTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="@string/navigation_title"
+        android:textColor="@color/grey"
+        android:fontFamily="sans-serif-light"
+        android:textSize="22dp" />
+    
+     <View
+        android:id="@+id/tutNavSplit0"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tutNavTitle"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/main" />
+
+    <ImageView
+        android:id="@+id/tutNavImageTop"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/tutNavSplit0"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/screenshot_kurse_overview" />
+    
+    <View
+        android:id="@+id/tutNavSplit1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tutNavImageTop"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/main" />
+
+    <TextView
+        android:id="@+id/tutNavDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tutNavSplit1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/navigation_description"
+        android:fontFamily="sans-serif-light"
+       	android:textSize="18dp" />
+
+</RelativeLayout>

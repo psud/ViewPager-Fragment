@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+           <color name="orange">#FF6C00</color>
+     <color name="orange_dark">#B54D00</color>
+      <color name="orange_light">#FFA812</color>
+    -->
+
+    <color name="main">#3498db</color>
+    <color name="main_dark">#2980b9</color>
+    <color name="main_light">#9BB0FF</color>
+    <color name="actionbar">#d3d3d3 </color>
+    <color name="text_grey">#7f8c8d</color>
+    <color name="background">#ecf0f1</color>
+    <color name="grey">#333333</color>
+    <color name="white">#FFFFFF</color>
+    
+    <color name="dot_color1">#e74c3c</color>
+    <color name="dot_color2">#34495e</color>
+    <color name="dot_color3">#2980b9</color>
+
+</resources>

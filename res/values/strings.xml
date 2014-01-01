@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SlidingTut</string>
+    <string name="action_last">Login</string>
+    <string name="action_next">Weiter</string>
+    <string name="start_description">Navigation</string>
+    <string name="navigation_title">Navigation</string>
+    <string name="navigation_description">Short Descripton of the Navigation \n@string/navigation_description</string>
+    <string name="widget_title">Widget</string>
+    <string name="widget_description">Short Descripton of the Widget \n@string/widget_description</string>
+    <string name="quickvp_title">Quick VP</string>
+    <string name="quickvp_description">Short Descripton of the QuickVP \n@string/quickvp_description</string>
+    <string name="kurse_title">Moodle Kurse</string>
+    <string name="kurse_description">Short Descripton of the Kurse \n@string/kurse_description</string>
+   </resources>
