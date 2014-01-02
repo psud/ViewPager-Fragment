@@ -13,4 +13,8 @@
     <string name="quickvp_description">Short Descripton of the QuickVP \n@string/quickvp_description</string>
     <string name="kurse_title">Moodle Kurse</string>
     <string name="kurse_description">Short Descripton of the Kurse \n@string/kurse_description</string>
+
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
    </resources>

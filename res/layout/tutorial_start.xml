@@ -19,8 +19,8 @@
         android:layout_width="fill_parent"
         android:layout_height="1dp"
         android:layout_below="@+id/tutStartLogo"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"
+        android:layout_marginLeft="@dimen/margin_line"
+        android:layout_marginRight="@dimen/margin_line"
         android:layout_marginTop="40dp"
         android:background="@color/main" />
     <TextView
@@ -40,8 +40,8 @@
         android:layout_width="fill_parent"
         android:layout_height="1dp"
         android:layout_below="@+id/tutStartTitle"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"
+        android:layout_marginLeft="@dimen/margin_line"
+        android:layout_marginRight="@dimen/margin_line"
         android:layout_marginTop="15dp"
         android:background="@color/main" />
 

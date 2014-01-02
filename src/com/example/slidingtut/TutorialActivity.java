@@ -120,7 +120,7 @@ public class TutorialActivity extends FragmentActivity {
 			case 4:
 				return TutFragGeneral.create(position);
 			case 5:
-				frag = new Fragment1();
+				frag = new FragmentLogin();
 				break;
 			}
 
