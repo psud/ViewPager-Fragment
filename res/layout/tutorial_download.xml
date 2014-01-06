@@ -39,7 +39,7 @@
         android:weightSum="2" >
 
         <ImageView
-            android:id="@+id/tutGenImage"
+            android:id="@+id/tutDownImage"
             android:layout_width="fill_parent"
             android:layout_height="match_parent"
             android:layout_centerHorizontal="true"
@@ -60,22 +60,25 @@
                 android:layout_weight="1"
                 android:orientation="vertical"
                 android:weightSum="2" >
+
                 <ImageView
-            android:id="@+id/tutGenImage"
-            android:layout_width="fill_parent"
-            android:layout_height="match_parent"
-            android:layout_centerHorizontal="true"
-            android:layout_weight="1"
-            android:scaleType="centerCrop"
-            android:src="@drawable/screenshot_kurse_overview" />
+                    android:id="@+id/tutDownImageAdobe"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/icon_adobereader" />
+
                 <ImageView
-            android:id="@+id/tutGenImage"
-            android:layout_width="fill_parent"
-            android:layout_height="match_parent"
-            android:layout_centerHorizontal="true"
-            android:layout_weight="1"
-            android:scaleType="centerCrop"
-            android:src="@drawable/screenshot_kurse_overview" />
+                    android:id="@+id/tutDownImageFoxit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="8dp"
+                    android:src="@drawable/icon_foxit" />
             </LinearLayout>
 
             <LinearLayout
@@ -84,22 +87,26 @@
                 android:layout_weight="1"
                 android:orientation="vertical"
                 android:weightSum="2" >
+
                 <ImageView
-            android:id="@+id/tutGenImage"
-            android:layout_width="fill_parent"
-            android:layout_height="match_parent"
-            android:layout_centerHorizontal="true"
-            android:layout_weight="1"
-            android:scaleType="centerCrop"
-            android:src="@drawable/screenshot_kurse_overview" />
+                    android:id="@+id/tutDownImageQuickoffice"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/icon_quickoffice"
+                    android:layout_margin="8dp" />
+
                 <ImageView
-            android:id="@+id/tutGenImage"
-            android:layout_width="fill_parent"
-            android:layout_height="match_parent"
-            android:layout_centerHorizontal="true"
-            android:layout_weight="1"
-            android:scaleType="centerCrop"
-            android:src="@drawable/screenshot_kurse_overview" />
+                    android:id="@+id/tutDownImageOfficeSuite"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/icon_officesuit"
+                    android:layout_margin="8dp" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
@@ -122,7 +129,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
         android:fontFamily="sans-serif-light"
-        android:padding="@dimen/margin_side"
+        android:paddingLeft="@dimen/margin_side"
+        android:paddingRight="@dimen/margin_side"
         android:text=""
         android:textSize="18dp" />
 

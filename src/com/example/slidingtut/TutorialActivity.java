@@ -109,10 +109,10 @@ public class TutorialActivity extends FragmentActivity {
 
 		@Override
 		public Fragment getItem(int position) {
-			Fragment frag = new Fragment1();
+			Fragment frag = new TutFragStart();
 			switch (position) {
 			case 0:
-				frag = new Fragment1();
+				frag = new TutFragStart();
 				break;
 			case 1:
 			case 2:

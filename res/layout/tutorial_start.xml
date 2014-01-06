@@ -46,14 +46,14 @@
         android:background="@color/main" />
 
     <TextView
-        android:id="@+id/tut1Text"
+        android:id="@+id/tutStartDesc"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tutStartSplit2"
         android:padding="25dp"
         android:fontFamily="sans-serif-light"
        	android:textSize="18dp"
-        android:text="Dieser Text muss noch geschreiben werden" />
+        android:text="" />
 
     <LinearLayout
         android:layout_width="fill_parent"

@@ -15,6 +15,7 @@
     <color name="background">#ecf0f1</color>
     <color name="grey">#333333</color>
     <color name="white">#FFFFFF</color>
+    <color name="red">#e74c3c</color>
     
     <color name="dot_color1">#e74c3c</color>
     <color name="dot_color2">#34495e</color>

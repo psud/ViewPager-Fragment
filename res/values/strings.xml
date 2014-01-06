@@ -4,6 +4,7 @@
     <string name="app_name">SlidingTut</string>
     <string name="action_last">Login</string>
     <string name="action_next">Weiter</string>
+    <string name="start_desc">Cool das du dir die BWS Moodle App runtergeladen hast.\nAuf den nächsten Screens kannst du die App durch eine kleine Einführung kennenlernen.</string>
     <string name="navigation_title">Navigation</string>
     <string name="navigation_description">Mit der vom linken Bildschirmrand ausziehbare Navigation kannst du zwischen deinen Moodle Kursen und dem QuickVP wechseln</string>
     <string name="widget_title">Widget</string>
@@ -11,14 +12,18 @@
     <string name="quickvp_title">Quick VP</string>
     <string name="quickvp_description">Der QuickVP ist ein schneller Weg zum aktuellsten Vertretungsplan. Einfach auf Download clicken und der Vertretungsplan wird dir angezeigt.</string>
     <string name="kurse_title">Moodle Kurse</string>
-    <string name="kurse_description">Hier wird dir der Inhalt des ausgewählten Kurses angezeigt. </string>
+    <string name="kurse_description">Hier wird dir der Inhalt des ausgewählten Kurses angezeigt. Wenn du auf eine Sektion clickst wird dir davon auch noch der Inhalt angezeigt.</string>
     <string name="pdf_title">PDF Readers </string>
     <string name="pdf_description">Da viele Dateinen in Moodle PDFs sind, empfelen wir, dass ein PDF Reader auf deinem Handy installiert ist.</string>
     <string name="pdf_reader_available_start">Du hast schon </string>
-    <string name="pdf_reader_available_end"> installiert, wodurch du alle PDFs lesen kannst.</string>
-     <string name="pdf_reader_not_available">Du hast noch keinen PDF Reader auf deinem Handy installiert. Klicke auf einen der vier PDF Reader logos um im PlayStore einen Reader herunterzuladen.</string>
+    <string name="pdf_reader_available_end">installiert, wodurch du alle PDFs lesen kannst.</string>
+    <string name="pdf_reader_not_available">Du hast noch keinen PDF Reader auf deinem Handy installiert. Klicke auf einen der vier PDF Reader logos um im PlayStore einen Reader herunterzuladen.</string>
     <string name="login">Login</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
+    <string name="login_both_empty">Beide Felder müssen ausgefüllt sein</string>
+    <string name="login_username_empty">Du musst einen Username eingeben</string>
+    <string name="login_password_empty">Du musst ein Passwort eingeben</string>
+    <string name="login_failed">Einloggen Fehlgeschlagen\nUsername und Passwort passen nicht zueinander</string>
 
 </resources>

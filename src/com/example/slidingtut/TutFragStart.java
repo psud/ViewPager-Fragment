@@ -7,11 +7,12 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.Toast;
+import android.widget.TextView;
 
-public class Fragment1 extends Fragment implements OnClickListener{
+public class TutFragStart extends Fragment implements OnClickListener{
 	View v;
 	Button login, next;
+	TextView desc;
 	TutorialActivity tutAct;
 	
 	 @Override
@@ -28,7 +29,9 @@ public class Fragment1 extends Fragment implements OnClickListener{
 		
 		next = (Button) v.findViewById(R.id.tutStartButNext);
 		login = (Button) v.findViewById(R.id.tutStartButLogin);
+		desc = (TextView) v.findViewById(R.id.tutStartDesc);
 		
+		desc.setText(getText(R.string.start_desc));
 		next.setOnClickListener(this);
 		login.setOnClickListener(this);
 	}
