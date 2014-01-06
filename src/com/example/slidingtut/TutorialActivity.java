@@ -19,7 +19,7 @@ public class TutorialActivity extends FragmentActivity {
 	/**
 	 * The number of pages (wizard steps) to show in this demo.
 	 */
-	private static final int NUM_PAGES = 6;
+	private static final int NUM_PAGES = 7;
 
 	/**
 	 * The pager widget, which handles animation and allows swiping horizontally
@@ -120,6 +120,9 @@ public class TutorialActivity extends FragmentActivity {
 			case 4:
 				return TutFragGeneral.create(position);
 			case 5:
+				frag = new TutFragDownload();
+				break;
+			case 6:
 				frag = new FragmentLogin();
 				break;
 			}

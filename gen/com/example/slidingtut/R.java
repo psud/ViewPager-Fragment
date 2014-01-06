@@ -51,7 +51,7 @@ public final class R {
     }
     public static final class id {
         public static final int action_flip=0x7f060001;
-        public static final int action_last=0x7f06001f;
+        public static final int action_last=0x7f060024;
         /** 
         These action bar item IDs (menu item IDs) are defined here for
         programmatic use. Normally, IDs are created using the "@+id/foo"
@@ -67,36 +67,41 @@ public final class R {
         public static final int logTitle=0x7f060002;
         public static final int logUsername=0x7f060005;
         public static final int pager=0x7f060008;
-        public static final int tut1SplitBottom=0x7f060017;
-        public static final int tut1Text=0x7f060016;
-        public static final int tutGenDesc=0x7f06000c;
+        public static final int tut1SplitBottom=0x7f06001c;
+        public static final int tut1Text=0x7f06001b;
+        public static final int tutDownDesc=0x7f06000d;
+        public static final int tutDownReaderLayout=0x7f06000b;
+        public static final int tutDownSplit1=0x7f06000a;
+        public static final int tutDownSplit2=0x7f06000c;
+        public static final int tutDownTitle=0x7f060009;
+        public static final int tutGenDesc=0x7f060011;
         public static final int tutGenImage=0x7f060004;
-        public static final int tutGenSplit1=0x7f06000a;
-        public static final int tutGenSplit2=0x7f06000b;
-        public static final int tutGenTitle=0x7f060009;
-        public static final int tutNavDesc=0x7f060011;
-        public static final int tutNavImageTop=0x7f06000f;
-        public static final int tutNavSplit0=0x7f06000e;
-        public static final int tutNavSplit1=0x7f060010;
-        public static final int tutNavTitle=0x7f06000d;
-        public static final int tutStartButLogin=0x7f060018;
-        public static final int tutStartButNext=0x7f060019;
-        public static final int tutStartLogo=0x7f060012;
-        public static final int tutStartSplit1=0x7f060013;
-        public static final int tutStartSplit2=0x7f060015;
-        public static final int tutStartTitle=0x7f060014;
-        public static final int tutWidDesc=0x7f06001e;
-        public static final int tutWidImage=0x7f06001c;
-        public static final int tutWidSplit1=0x7f06001b;
-        public static final int tutWidSplit2=0x7f06001d;
-        public static final int tutWidTitle=0x7f06001a;
+        public static final int tutGenSplit1=0x7f06000f;
+        public static final int tutGenSplit2=0x7f060010;
+        public static final int tutGenTitle=0x7f06000e;
+        public static final int tutNavDesc=0x7f060016;
+        public static final int tutNavImageTop=0x7f060014;
+        public static final int tutNavSplit0=0x7f060013;
+        public static final int tutNavSplit1=0x7f060015;
+        public static final int tutNavTitle=0x7f060012;
+        public static final int tutStartButLogin=0x7f06001d;
+        public static final int tutStartButNext=0x7f06001e;
+        public static final int tutStartLogo=0x7f060017;
+        public static final int tutStartSplit1=0x7f060018;
+        public static final int tutStartSplit2=0x7f06001a;
+        public static final int tutStartTitle=0x7f060019;
+        public static final int tutWidDesc=0x7f060023;
+        public static final int tutWidImage=0x7f060021;
+        public static final int tutWidSplit1=0x7f060020;
+        public static final int tutWidSplit2=0x7f060022;
+        public static final int tutWidTitle=0x7f06001f;
     }
     public static final class layout {
         public static final int login=0x7f030000;
         public static final int tutorial_activity=0x7f030001;
-        public static final int tutorial_einstellungen=0x7f030002;
-        public static final int tutorial_general=0x7f030003;
-        public static final int tutorial_kurse=0x7f030004;
+        public static final int tutorial_download=0x7f030002;
+        public static final int tutorial_einstellungen=0x7f030003;
+        public static final int tutorial_general=0x7f030004;
         public static final int tutorial_navigation=0x7f030005;
         public static final int tutorial_start=0x7f030006;
         public static final int tutorial_widget=0x7f030007;
@@ -108,18 +113,22 @@ public final class R {
         public static final int action_last=0x7f070001;
         public static final int action_next=0x7f070002;
         public static final int app_name=0x7f070000;
-        public static final int kurse_description=0x7f07000b;
-        public static final int kurse_title=0x7f07000a;
-        public static final int login=0x7f07000c;
-        public static final int navigation_description=0x7f070005;
-        public static final int navigation_title=0x7f070004;
-        public static final int password=0x7f07000e;
-        public static final int quickvp_description=0x7f070009;
-        public static final int quickvp_title=0x7f070008;
-        public static final int start_description=0x7f070003;
-        public static final int username=0x7f07000d;
-        public static final int widget_description=0x7f070007;
-        public static final int widget_title=0x7f070006;
+        public static final int kurse_description=0x7f07000a;
+        public static final int kurse_title=0x7f070009;
+        public static final int login=0x7f070010;
+        public static final int navigation_description=0x7f070004;
+        public static final int navigation_title=0x7f070003;
+        public static final int password=0x7f070012;
+        public static final int pdf_description=0x7f07000c;
+        public static final int pdf_reader_available_end=0x7f07000e;
+        public static final int pdf_reader_available_start=0x7f07000d;
+        public static final int pdf_reader_not_available=0x7f07000f;
+        public static final int pdf_title=0x7f07000b;
+        public static final int quickvp_description=0x7f070008;
+        public static final int quickvp_title=0x7f070007;
+        public static final int username=0x7f070011;
+        public static final int widget_description=0x7f070006;
+        public static final int widget_title=0x7f070005;
     }
     public static final class style {
         /** 

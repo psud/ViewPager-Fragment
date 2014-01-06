@@ -89,10 +89,10 @@ public class TutFragGeneral extends Fragment {
 		
 		ImageView iv;
 		iv = (ImageView) v.findViewById(R.id.tutGenImage);
-		Log.d("IV width", String.valueOf(iv.getWidth()));
-		Log.d("total width", String.valueOf(totalWidth));
-		Log.d("iv Height", String.valueOf(ivHeight));
-		Log.d("iv Height", String.valueOf(totalHeight));
+//		Log.d("IV width", String.valueOf(iv.getWidth()));
+//		Log.d("total width", String.valueOf(totalWidth));
+//		Log.d("iv Height", String.valueOf(ivHeight));
+//		Log.d("iv Height", String.valueOf(totalHeight));
 		//Set the height to the Object
 		iv.getLayoutParams().height = ivHeight;
 

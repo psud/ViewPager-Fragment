@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tutDownTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Title"
+        android:textColor="@color/main"
+        android:textSize="22dp" />
+
+    <View
+        android:id="@+id/tutDownSplit1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tutDownTitle"
+        android:layout_marginLeft="@dimen/margin_line"
+        android:layout_marginRight="@dimen/margin_line"
+        android:layout_marginTop="15dp"
+        android:background="@color/main" />
+
+    <LinearLayout
+        android:id="@+id/tutDownReaderLayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/tutDownSplit1"
+        android:layout_marginLeft="@dimen/margin_side"
+        android:layout_marginRight="@dimen/margin_side"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <ImageView
+            android:id="@+id/tutGenImage"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/screenshot_kurse_overview" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="2" >
+                <ImageView
+            android:id="@+id/tutGenImage"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/screenshot_kurse_overview" />
+                <ImageView
+            android:id="@+id/tutGenImage"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/screenshot_kurse_overview" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="2" >
+                <ImageView
+            android:id="@+id/tutGenImage"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/screenshot_kurse_overview" />
+                <ImageView
+            android:id="@+id/tutGenImage"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/screenshot_kurse_overview" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/tutDownSplit2"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tutDownReaderLayout"
+        android:layout_marginLeft="@dimen/margin_line"
+        android:layout_marginRight="@dimen/margin_line"
+        android:layout_marginTop="20dp"
+        android:background="@color/main" />
+
+    <TextView
+        android:id="@+id/tutDownDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tutDownSplit2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-light"
+        android:padding="@dimen/margin_side"
+        android:text=""
+        android:textSize="18dp" />
+
+</RelativeLayout>
