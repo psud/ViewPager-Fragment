@@ -4,6 +4,7 @@ import android.app.Fragment;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -17,6 +18,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.TextView.OnEditorActionListener;
@@ -28,6 +30,7 @@ public class FragmentLogin extends Fragment implements OnClickListener {
 	private EditText etPassword;
 	private Button bLogin;
 	private LinearLayout llBox;
+	private ProgressBar spinner;
 
 	private String username;
 	private String password;
@@ -48,6 +51,7 @@ public class FragmentLogin extends Fragment implements OnClickListener {
 		etPassword = (EditText) v.findViewById(R.id.logPassword);
 		bLogin = (Button) v.findViewById(R.id.logBLogin);
 		llBox = (LinearLayout) v.findViewById(R.id.logLlBox);
+		spinner = (ProgressBar) v.findViewById(R.id.logProgressSpinner);
 
 		bLogin.setOnClickListener(this);
 		
@@ -78,6 +82,7 @@ public class FragmentLogin extends Fragment implements OnClickListener {
 	private void LoginMethode() {
 		// TODO Auto-generated method stub
 		//Put in Network Request
+		LoadingLogin();
 		
 		//If Network Request Sucessful
 //		Intent i = new Intent(this, MainSelection.class);
@@ -89,12 +94,40 @@ public class FragmentLogin extends Fragment implements OnClickListener {
 		//If login Failed
 		if (false){
 			AnimateShake(llBox, false);
+			ShowLoginFields();
 		
 			//Make toast saying wrong creds
 			String toastTxt;
 			toastTxt = getString(R.string.login_failed);
 			MakeToast(toastTxt);
 		}
+	}
+
+	private void ShowLoginFields() {
+		int notV = View.INVISIBLE;
+		int isV = View.VISIBLE;
+		spinner.setVisibility(notV);
+		etPassword.setVisibility(isV);
+		etUsername.setVisibility(isV);
+		bLogin.setVisibility(isV);
+	}
+
+	private void LoadingLogin() {
+		int notV = View.INVISIBLE;
+		int isV = View.VISIBLE;
+		spinner.setVisibility(isV);
+		etPassword.setVisibility(notV);
+		etUsername.setVisibility(notV);
+		bLogin.setVisibility(notV);
+		
+		new CountDownTimer(2000, 1000) { //40000 milli seconds is total time, 1000 milli seconds is time interval
+
+			 public void onTick(long millisUntilFinished) {
+			  }
+			  public void onFinish() {
+				  ShowLoginFields();
+			 }
+			}.start();
 	}
 
 	private boolean CheckIfFieldsEmpty() {
@@ -128,7 +161,7 @@ public class FragmentLogin extends Fragment implements OnClickListener {
 			// Shake Password
 			// AnimateShake(etPassword, false);
 		}
-		return false;
+		return empty;
 	}
 
 	private void MakeToast(String in) {

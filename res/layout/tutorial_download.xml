@@ -65,7 +65,6 @@
                     android:id="@+id/tutDownImageAdobe"
                     android:layout_width="fill_parent"
                     android:layout_height="match_parent"
-                    android:layout_centerHorizontal="true"
                     android:layout_weight="1"
                     android:scaleType="fitCenter"
                     android:src="@drawable/icon_adobereader" />
@@ -74,10 +73,9 @@
                     android:id="@+id/tutDownImageFoxit"
                     android:layout_width="fill_parent"
                     android:layout_height="match_parent"
-                    android:layout_centerHorizontal="true"
                     android:layout_weight="1"
                     android:scaleType="fitCenter"
-                    android:layout_margin="8dp"
+                    android:padding="8dp"
                     android:src="@drawable/icon_foxit" />
             </LinearLayout>
 
@@ -92,21 +90,19 @@
                     android:id="@+id/tutDownImageQuickoffice"
                     android:layout_width="fill_parent"
                     android:layout_height="match_parent"
-                    android:layout_centerHorizontal="true"
                     android:layout_weight="1"
                     android:scaleType="fitCenter"
                     android:src="@drawable/icon_quickoffice"
-                    android:layout_margin="8dp" />
+                    android:padding="8dp" />
 
                 <ImageView
                     android:id="@+id/tutDownImageOfficeSuite"
                     android:layout_width="fill_parent"
                     android:layout_height="match_parent"
-                    android:layout_centerHorizontal="true"
                     android:layout_weight="1"
                     android:scaleType="fitCenter"
                     android:src="@drawable/icon_officesuit"
-                    android:layout_margin="8dp" />
+                    android:padding="8dp" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

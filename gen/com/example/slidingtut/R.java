@@ -59,7 +59,7 @@ public final class R {
     }
     public static final class id {
         public static final int action_flip=0x7f070001;
-        public static final int action_last=0x7f07002b;
+        public static final int action_last=0x7f07002c;
         /** 
         These action bar item IDs (menu item IDs) are defined here for
         programmatic use. Normally, IDs are created using the "@+id/foo"
@@ -69,47 +69,48 @@ public final class R {
     
          */
         public static final int action_next=0x7f070000;
-        public static final int logBLogin=0x7f070008;
-        public static final int logImage=0x7f070005;
-        public static final int logLlBox=0x7f070004;
-        public static final int logPassword=0x7f070007;
+        public static final int logBLogin=0x7f070009;
+        public static final int logImage=0x7f070006;
+        public static final int logLlBox=0x7f070005;
+        public static final int logPassword=0x7f070008;
+        public static final int logProgressSpinner=0x7f070004;
         public static final int logSplit1=0x7f070003;
         public static final int logTitle=0x7f070002;
-        public static final int logUsername=0x7f070006;
-        public static final int pager=0x7f070009;
-        public static final int tut1SplitBottom=0x7f070023;
-        public static final int tutDownDesc=0x7f070013;
-        public static final int tutDownImage=0x7f07000d;
-        public static final int tutDownImageAdobe=0x7f07000e;
-        public static final int tutDownImageFoxit=0x7f07000f;
-        public static final int tutDownImageOfficeSuite=0x7f070011;
-        public static final int tutDownImageQuickoffice=0x7f070010;
-        public static final int tutDownReaderLayout=0x7f07000c;
-        public static final int tutDownSplit1=0x7f07000b;
-        public static final int tutDownSplit2=0x7f070012;
-        public static final int tutDownTitle=0x7f07000a;
-        public static final int tutGenDesc=0x7f070018;
-        public static final int tutGenImage=0x7f070016;
-        public static final int tutGenSplit1=0x7f070015;
-        public static final int tutGenSplit2=0x7f070017;
-        public static final int tutGenTitle=0x7f070014;
-        public static final int tutNavDesc=0x7f07001d;
-        public static final int tutNavImageTop=0x7f07001b;
-        public static final int tutNavSplit0=0x7f07001a;
-        public static final int tutNavSplit1=0x7f07001c;
-        public static final int tutNavTitle=0x7f070019;
-        public static final int tutStartButLogin=0x7f070024;
-        public static final int tutStartButNext=0x7f070025;
-        public static final int tutStartDesc=0x7f070022;
-        public static final int tutStartLogo=0x7f07001e;
-        public static final int tutStartSplit1=0x7f07001f;
-        public static final int tutStartSplit2=0x7f070021;
-        public static final int tutStartTitle=0x7f070020;
-        public static final int tutWidDesc=0x7f07002a;
-        public static final int tutWidImage=0x7f070028;
-        public static final int tutWidSplit1=0x7f070027;
-        public static final int tutWidSplit2=0x7f070029;
-        public static final int tutWidTitle=0x7f070026;
+        public static final int logUsername=0x7f070007;
+        public static final int pager=0x7f07000a;
+        public static final int tut1SplitBottom=0x7f070024;
+        public static final int tutDownDesc=0x7f070014;
+        public static final int tutDownImage=0x7f07000e;
+        public static final int tutDownImageAdobe=0x7f07000f;
+        public static final int tutDownImageFoxit=0x7f070010;
+        public static final int tutDownImageOfficeSuite=0x7f070012;
+        public static final int tutDownImageQuickoffice=0x7f070011;
+        public static final int tutDownReaderLayout=0x7f07000d;
+        public static final int tutDownSplit1=0x7f07000c;
+        public static final int tutDownSplit2=0x7f070013;
+        public static final int tutDownTitle=0x7f07000b;
+        public static final int tutGenDesc=0x7f070019;
+        public static final int tutGenImage=0x7f070017;
+        public static final int tutGenSplit1=0x7f070016;
+        public static final int tutGenSplit2=0x7f070018;
+        public static final int tutGenTitle=0x7f070015;
+        public static final int tutNavDesc=0x7f07001e;
+        public static final int tutNavImageTop=0x7f07001c;
+        public static final int tutNavSplit0=0x7f07001b;
+        public static final int tutNavSplit1=0x7f07001d;
+        public static final int tutNavTitle=0x7f07001a;
+        public static final int tutStartButLogin=0x7f070025;
+        public static final int tutStartButNext=0x7f070026;
+        public static final int tutStartDesc=0x7f070023;
+        public static final int tutStartLogo=0x7f07001f;
+        public static final int tutStartSplit1=0x7f070020;
+        public static final int tutStartSplit2=0x7f070022;
+        public static final int tutStartTitle=0x7f070021;
+        public static final int tutWidDesc=0x7f07002b;
+        public static final int tutWidImage=0x7f070029;
+        public static final int tutWidSplit1=0x7f070028;
+        public static final int tutWidSplit2=0x7f07002a;
+        public static final int tutWidTitle=0x7f070027;
     }
     public static final class layout {
         public static final int login=0x7f030000;

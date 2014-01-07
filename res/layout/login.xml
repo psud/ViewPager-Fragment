@@ -27,6 +27,16 @@
         android:layout_marginTop="15dp"
         android:background="@color/main" />
 
+    <ProgressBar
+        android:id="@+id/logProgressSpinner"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingTop="50dp"
+        android:visibility="gone"
+         />
+
     <LinearLayout
         android:id="@+id/logLlBox"
         android:layout_width="match_parent"
